@@ -31,7 +31,7 @@ gulp.task('browser-sync', ['styles', 'jekyll-build'], function() {
     server: {
       baseDir: '_site'
     },
-    startPath: "/index.html"
+    startPath: "index.html"
   });
 });
 
